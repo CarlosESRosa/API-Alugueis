@@ -28,20 +28,20 @@
  - Retorna todos imoveis:
 ```json
 [
-	{
-		"id": "<imovelId>",
-		"max_hospedes": "<max_hospedes>",
-		"banheiros": "<banheiros>",
-		"pet": "<pet>",
-		"limpeza": "<limpeza>",
-		"ativacao": "<ativacao>",
-		"criacao": "<criacao>",
-		"atualizacao": "<atualizacao>",
-		"anuncios": ["<anuncios.id: anuncios.plataforma>"],
-	},
-	{
-		"imovel 2 ..."
-	}
+    {
+        "id": "<imovelId>",
+        "max_hospedes": "<max_hospedes>",
+        "banheiros": "<banheiros>",
+        "pet": "<pet>",
+        "limpeza": "<limpeza>",
+        "ativacao": "<ativacao>",
+        "criacao": "<criacao>",
+        "atualizacao": "<atualizacao>",
+        "anuncios": ["<anuncios.id: anuncios.plataforma>"],
+    },
+    {
+        "imovel 2 ..."
+    }
 ]
 ```
 
@@ -49,15 +49,15 @@
  - Retorna o imovel do id mencionado:
 ```json
 {
-	"id": "<imovelId>",
-	"max_hospedes": "<max_hospedes>",
-	"banheiros": "<banheiros>",
-	"pet": "<pet>",
-	"limpeza": "<limpeza>",
-	"ativacao": "<ativacao>",
-	"criacao": "<criacao>",
-	"atualizacao": "<atualizacao>",
-	"anuncios": ["<anuncios.id: anuncios.plataforma>"],
+    "id": "<imovelId>",
+    "max_hospedes": "<max_hospedes>",
+    "banheiros": "<banheiros>",
+    "pet": "<pet>",
+    "limpeza": "<limpeza>",
+    "ativacao": "<ativacao>",
+    "criacao": "<criacao>",
+    "atualizacao": "<atualizacao>",
+    "anuncios": ["<anuncios.id: anuncios.plataforma>"],
 }
 ```
 
@@ -65,24 +65,24 @@
  - Você deve preencher o body com os campos `max_hospedes`, `banheiros`, `pet` e `limpeza` exemplo:
  ```json
 {
-	"max_hospedes": 3,
-	"banheiros": 2,
-	"pet": true,
-	"limpeza": 150.50
+    "max_hospedes": 3,
+    "banheiros": 2,
+    "pet": true,
+    "limpeza": 150.50
 }
 ```
  - Em caso de sucesso, retorna as informações do imovel criado:
 ```json
 {
-	"id": "<imovelId>",
-	"max_hospedes": "<max_hospedes>",
-	"banheiros": "<banheiros>",
-	"pet": "<pet>",
-	"limpeza": "<limpeza>",
-	"ativacao": "<ativacao>",
-	"criacao": "<criacao>",
-	"atualizacao": "<atualizacao>",
-	"anuncios": ["<anuncios.id: anuncios.plataforma>"],
+    "id": "<imovelId>",
+    "max_hospedes": "<max_hospedes>",
+    "banheiros": "<banheiros>",
+    "pet": "<pet>",
+    "limpeza": "<limpeza>",
+    "ativacao": "<ativacao>",
+    "criacao": "<criacao>",
+    "atualizacao": "<atualizacao>",
+    "anuncios": ["<anuncios.id: anuncios.plataforma>"],
 }
 ```
 
@@ -90,24 +90,24 @@
  - Você deve preencher o body com os campos `max_hospedes`, `banheiros`, `pet` e `limpeza` exemplo:
  ```json
 {
-	"max_hospedes": 4,
-	"banheiros": 2,
-	"pet": true,
-	"limpeza": 150.50
+    "max_hospedes": 4,
+    "banheiros": 2,
+    "pet": true,
+    "limpeza": 150.50
 }
 ```
  - Em caso de sucesso, retorna as informações do imovel atualizado:
 ```json
 {
-	"id": "<imovelId>",
-	"max_hospedes": "<max_hospedes>",
-	"banheiros": "<banheiros>",
-	"pet": "<pet>",
-	"limpeza": "<limpeza>",
-	"ativacao": "<ativacao>",
-	"criacao": "<criacao>",
-	"atualizacao": "<atualizacao>",
-	"anuncios": ["<anuncios.id: anuncios.plataforma>"],
+    "id": "<imovelId>",
+    "max_hospedes": "<max_hospedes>",
+    "banheiros": "<banheiros>",
+    "pet": "<pet>",
+    "limpeza": "<limpeza>",
+    "ativacao": "<ativacao>",
+    "criacao": "<criacao>",
+    "atualizacao": "<atualizacao>",
+    "anuncios": ["<anuncios.id: anuncios.plataforma>"],
 }
 ```
 
@@ -115,7 +115,7 @@
  - Em caso de sucesso, retorna as informações de sucesso:
 ```json
 {
-	"res": "Object deleted!"
+    "res": "Object deleted!"
 }
 ```
 </details>
@@ -127,18 +127,18 @@
  - Retorna todos anuncios:
 ```json
 [
-	{
-		"id": "<anuncio_id>",
-		"imovel_id": "<imovel_id>",
-		"plataforma": "<plataforma>",
-		"taxa_plataforma": "<taxa_plataforma>",
-		"criacao": "<criacao>",
-		"atualizacao": "<atualizacao>",
-		"reservas": ["<reservas.id: reservas.preco_total>"],
-	},
-	{
-		"anuncio 2 ..."
-	}
+    {
+        "id": "<anuncio_id>",
+        "imovel_id": "<imovel_id>",
+        "plataforma": "<plataforma>",
+        "taxa_plataforma": "<taxa_plataforma>",
+        "criacao": "<criacao>",
+        "atualizacao": "<atualizacao>",
+        "reservas": ["<reservas.id: reservas.preco_total>"],
+    },
+    {
+        "anuncio 2 ..."
+    }
 ]
 ```
 
@@ -146,13 +146,13 @@
  - Retorna o anuncio do id mencionado:
 ```json
 {
-	"id": "<anuncio_id>",
-	"imovel_id": "<imovel_id>",
-	"plataforma": "<plataforma>",
-	"taxa_plataforma": "<taxa_plataforma>",
-	"criacao": "<criacao>",
-	"atualizacao": "<atualizacao>",
-	"reservas": ["<reservas.id: reservas.preco_total>"],
+    "id": "<anuncio_id>",
+    "imovel_id": "<imovel_id>",
+    "plataforma": "<plataforma>",
+    "taxa_plataforma": "<taxa_plataforma>",
+    "criacao": "<criacao>",
+    "atualizacao": "<atualizacao>",
+    "reservas": ["<reservas.id: reservas.preco_total>"],
 }
 ```
 
@@ -160,21 +160,21 @@
  - Você deve preencher o body com os campos `imovel_id`, `plataforma` e `taxa_plataforma` exemplo:
  ```json
 {
-	"imovel_id": "valid imovel id",
-	"plataforma": "AirBnB",
-	"taxa_plataforma": 150.50
+    "imovel_id": "valid imovel id",
+    "plataforma": "AirBnB",
+    "taxa_plataforma": 150.50
 }
 ```
  - Em caso de sucesso, retorna as informações do anuncio criado:
 ```json
 {
-	"id": "<anuncio_id>",
-	"imovel_id": "<imovel_id>",
-	"plataforma": "<plataforma>",
-	"taxa_plataforma": "<taxa_plataforma>",
-	"criacao": "<criacao>",
-	"atualizacao": "<atualizacao>",
-	"reservas": ["<reservas.id: reservas.preco_total>"],
+    "id": "<anuncio_id>",
+    "imovel_id": "<imovel_id>",
+    "plataforma": "<plataforma>",
+    "taxa_plataforma": "<taxa_plataforma>",
+    "criacao": "<criacao>",
+    "atualizacao": "<atualizacao>",
+    "reservas": ["<reservas.id: reservas.preco_total>"],
 }
 ```
 
@@ -182,21 +182,21 @@
  - Você deve preencher o body com os campos `imovel_id`, `plataforma` e `taxa_plataforma` exemplo:
  ```json
 {
-	"imovel_id": "valid imovel id",
-	"plataforma": "AirBnB",
-	"taxa_plataforma": 150.50
+    "imovel_id": "valid imovel id",
+    "plataforma": "AirBnB",
+    "taxa_plataforma": 150.50
 }
 ```
  - Em caso de sucesso, retorna as informações do anuncio atualizado:
 ```json
 {
-	"id": "<anuncio_id>",
-	"imovel_id": "<imovel_id>",
-	"plataforma": "<plataforma>",
-	"taxa_plataforma": "<taxa_plataforma>",
-	"criacao": "<criacao>",
-	"atualizacao": "<atualizacao>",
-	"reservas": ["<reservas.id: reservas.preco_total>"],
+    "id": "<anuncio_id>",
+    "imovel_id": "<imovel_id>",
+    "plataforma": "<plataforma>",
+    "taxa_plataforma": "<taxa_plataforma>",
+    "criacao": "<criacao>",
+    "atualizacao": "<atualizacao>",
+    "reservas": ["<reservas.id: reservas.preco_total>"],
 }
 ```
 
@@ -209,20 +209,20 @@
  - Retorna todas reservas:
 ```json
 [
-	{
-		"id": "<reserva_id>",
-		"anuncio_id": "<anuncio_id>",
-		"check_in": "<check_in>",
-		"check_out": "<check_out>",
-		"preco_total": "<preco_total>",
-		"comentario": "<comentario>",
-		"hospedes": "<hospedes>",
-		"criacao": "<criacao>",
-		"atualizacao": "<atualizacao>",
-	},
-	{
-		"reserva 2 ..."
-	}
+    {
+        "id": "<reserva_id>",
+        "anuncio_id": "<anuncio_id>",
+        "check_in": "<check_in>",
+        "check_out": "<check_out>",
+        "preco_total": "<preco_total>",
+        "comentario": "<comentario>",
+        "hospedes": "<hospedes>",
+        "criacao": "<criacao>",
+        "atualizacao": "<atualizacao>",
+    },
+    {
+        "reserva 2 ..."
+    }
 ]
 ```
 
@@ -230,15 +230,15 @@
  - Retorna reserva do id mencionado:
 ```json
 {
-	"id": "<reserva_id>",
-	"anuncio_id": "<anuncio_id>",
-	"check_in": "<check_in>",
-	"check_out": "<check_out>",
-	"preco_total": "<preco_total>",
-	"comentario": "<comentario>",
-	"hospedes": "<hospedes>",
-	"criacao": "<criacao>",
-	"atualizacao": "<atualizacao>",
+    "id": "<reserva_id>",
+    "anuncio_id": "<anuncio_id>",
+    "check_in": "<check_in>",
+    "check_out": "<check_out>",
+    "preco_total": "<preco_total>",
+    "comentario": "<comentario>",
+    "hospedes": "<hospedes>",
+    "criacao": "<criacao>",
+    "atualizacao": "<atualizacao>",
 }
 ```
 
@@ -246,26 +246,26 @@
  - Você deve preencher o body com os campos `anuncio_id`, `check_in`, `check_out`, `preco_total`, `comentario` `hospedes` exemplo:
  ```json
 {
-	"anuncio_id": "10145e55-6bc1-4e1c-b6f4-22dee9369f67",
-	"check_in": "2020-05-21",
-	"check_out": "2020-04-23",
-	"preco_total": 500.50,
-	"comentario": "gostei muito",
-	"hospedes": 3
+    "anuncio_id": "10145e55-6bc1-4e1c-b6f4-22dee9369f67",
+    "check_in": "2020-05-21",
+    "check_out": "2020-04-23",
+    "preco_total": 500.50,
+    "comentario": "gostei muito",
+    "hospedes": 3
 }
 ```
  - Em caso de sucesso, retorna as informações da reserva criada:
 ```json
 {
-	"id": "<reserva_id>",
-	"anuncio_id": "<anuncio_id>",
-	"check_in": "<check_in>",
-	"check_out": "<check_out>",
-	"preco_total": "<preco_total>",
-	"comentario": "<comentario>",
-	"hospedes": "<hospedes>",
-	"criacao": "<criacao>",
-	"atualizacao": "<atualizacao>",
+    "id": "<reserva_id>",
+    "anuncio_id": "<anuncio_id>",
+    "check_in": "<check_in>",
+    "check_out": "<check_out>",
+    "preco_total": "<preco_total>",
+    "comentario": "<comentario>",
+    "hospedes": "<hospedes>",
+    "criacao": "<criacao>",
+    "atualizacao": "<atualizacao>",
 }
 ```
 
@@ -273,7 +273,7 @@
  - Em caso de sucesso, retorna as informações de sucesso:
 ```json
 {
-	"res": "Object deleted!"
+    "res": "Object deleted!"
 }
 ```
 

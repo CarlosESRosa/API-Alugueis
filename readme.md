@@ -1,3 +1,5 @@
+Esse projeto foi um teste para o processo seletivo da empresa Seazone, o desafio era criar 3 APIs Restful utilizando o Framework Django com a linguagem Python. As APIs são relacionadas a aluguel de imoveis.
+
 <details>
 <summary><strong>Como rodar</strong></summary><br />
 
